@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# Data dirs
+backend/uploads/
+backend/chroma_db/
+backend/job_store/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+*.swp
